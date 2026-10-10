@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Check your order at Robinson's 3D Printing Service.">
+  <meta name="referrer" content="no-referrer">
+  <title>Robinson's 3D Printing Service</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body data-page="lookup">
+  <header class="site-header"><a class="brand" href="index.html"><img src="icon.svg" alt="" width="42" height="42"><span>ROBINSON’S<span class="brand-sub">3D PRINTING SERVICE</span></span></a><span class="header-note">From an idea. To a real thing.</span></header>
+  <main class="landing">
+    <section class="intro" aria-labelledby="headline">
+      <p class="eyebrow"><span class="dot"></span> THE NEXT LAYER OF YOUR IDEA</p>
+      <h1 id="headline">Big ideas.<br>Made <span class="accent">layer<br>by layer.</span></h1>
+      <p class="intro-copy">Your next creation is taking shape.<br>Follow its journey from the print bed to your hands.</p>
+      <div class="print-art" aria-hidden="true"><div class="orbit"></div><div class="layer l1"></div><div class="layer l2"></div><div class="layer l3"></div><div class="layer l4"></div><div class="layer l5"></div><span class="art-label">IDEA → OBJECT</span></div>
+    </section>
+    <section class="lookup-card" aria-labelledby="lookup-title">
+      <div class="card-top"><span class="eyebrow">YOUR PRINT, IN PROGRESS</span><span class="mini-icon" aria-hidden="true">↗</span></div>
+      <h2 id="lookup-title">Check your print.</h2>
+      <p class="muted">Enter your confirmation number to see the latest status and when your order will be ready.</p>
+      <form id="lookup-form" novalidate>
+        <label for="confirmation">Confirmation number</label>
+        <input id="confirmation" name="confirmation" type="text" inputmode="numeric" pattern="[0-9]{10}" minlength="10" maxlength="10" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="0000000000" aria-describedby="number-hint lookup-error" required>
+        <p class="hint" id="number-hint">The 10-digit number provided with your order.</p>
+        <p class="error" id="lookup-error" role="alert" hidden></p>
+        <button id="lookup-button" type="submit"><span>View print status</span><span aria-hidden="true">→</span></button>
+      </form>
+      <div class="card-foot"><span aria-hidden="true">ⓘ</span><p>Can’t find your number?<br>Ask Robinson for your order confirmation.</p></div>
+      <noscript><p class="error">Please enable JavaScript to look up your print.</p></noscript>
+    </section>
+  </main>
+  <footer><span>Robinson's 3D Printing Service</span><span>A little patience. A lot of possibility.</span></footer>
+</body>
+</html>
