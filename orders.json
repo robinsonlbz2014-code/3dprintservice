@@ -1,22 +1,12 @@
 {
-  "0123456789": {
-    "printName": "Sample order — desk organizer",
-    "stage": "printing",
-    "statusDetail": "Your print is underway. Next up: removing supports and checking the finish.",
-    "fulfillment": "pickup",
-    "readyAt": "Saturday, October 17, 2026 · after 3 PM Pacific",
+  "0000000001": {
+    "printName": "OTOS Mount",
+    "stage": "In Queue",
+    "statusDetail": "Bryan, your print is still in queue. It is expected to finish today.",
+    "fulfillment": "Delievery to 95129",
+    "readyAt": "Saturday, October 17, 2026 · after 5 PM Pacific",
     "fulfillmentNote": "Estimated pickup time. Please wait until the status says Ready for pickup before collecting your print.",
-    "note": "This is a demonstration order. Replace it with your own orders before sharing the site.",
-    "updatedAt": "October 10, 2026 · 4:00 PM Pacific"
+    "note": "Please email robinsonlbz2014@gmail.com for any questions or comments..",
+    "updatedAt": "October 10, 2026"
   },
-  "9876543210": {
-    "printName": "Sample order — custom keychain",
-    "stage": "ready",
-    "statusDetail": "Printing and the final quality check are complete.",
-    "fulfillment": "delivery",
-    "readyAt": "Sunday, October 18, 2026 · 2–4 PM Pacific",
-    "fulfillmentNote": "Planned delivery window. Delivery arrangements are confirmed separately with Robinson.",
-    "note": "This is a demonstration delivery order.",
-    "updatedAt": "October 10, 2026 · 4:00 PM Pacific"
-  }
-}
+
