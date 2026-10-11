@@ -1,13 +1,13 @@
 {
-  "0123456789": {
-    "printName": "Sample order — desk organizer",
+  "1478296350": {
+    "printName": "OTOS Mount",
     "stage": "printing",
-    "statusDetail": "Your print is underway. Next up: removing supports and checking the finish.",
-    "fulfillment": "pickup",
-    "readyAt": "Saturday, October 17, 2026 · after 3 PM Pacific",
-    "fulfillmentNote": "Estimated pickup time. Please wait until the status says Ready for pickup before collecting your print.",
-    "note": "This is a demonstration order. Replace it with your own orders before sharing the site.",
-    "updatedAt": "October 10, 2026 · 4:00 PM Pacific"
+    "statusDetail": "The order has been recieved.",
+    "fulfillment": "delivery",
+    "readyAt": "Monday, October 12, 2026 · 3-4 PM PDT",
+    "fulfillmentNote": "Delivery times may vary.",
+    "note": "",
+    "updatedAt": "October 10, 2026 · 6:59 PM PDT"
   },
   "9876543210": {
     "printName": "Sample order — custom keychain",
