@@ -1,13 +1,13 @@
 {
   "1478296350": {
     "printName": "OTOS Mount",
-    "stage": "printing",
+    "stage": "ready",
     "statusDetail": "The order has been recieved.",
-    "fulfillment": "ready",
+    "fulfillment": "delivery",
     "readyAt": "Monday, October 12, 2026 · 3 - 4 PM PDT",
     "fulfillmentNote": "Delivery times may vary.",
     "note": "",
-    "updatedAt": "October 10, 2026 · 9:13 PM PDT"
+    "updatedAt": "October 10, 2026 · 9:15 PM PDT"
   },
   "9876543210": {
     "printName": "Sample order — custom keychain",
